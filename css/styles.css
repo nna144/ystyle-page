@@ -53,11 +53,23 @@ a {
   padding: 13px auto 10px auto;
 }
 
+.navbar-nav {
+  margin: 0 auto;
+}
+
 #navbar01 a {
   color: black;
   font-size: 1.2rem;
-  font-weight: bold;
+  padding: 6px 0px 0px 62px;
+}
 
+.navbar-light .navbar-toggler {
+  border: none;
+  margin-left: 6.5%;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 .container-fluid {
