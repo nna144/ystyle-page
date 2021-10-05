@@ -10,13 +10,15 @@ body {
   display: block;
 }
 
-
-.material-icons.cart-icon {
-  font-size: 30px;
+.header-icons {
   display: inline;
   position: absolute;
   right: 8%;
-  top: 110px;
+  top: 150px;
+}
+
+.material-icons.cart-icon {
+  font-size: 30px;
 }
 
 .row>* {
@@ -48,7 +50,7 @@ a {
 }
 
 #navbar01 {
-  padding-top: 10px;
+  padding: 13px auto 10px auto;
 }
 
 #navbar01 a {
