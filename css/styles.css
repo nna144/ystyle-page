@@ -2,8 +2,6 @@ body {
   font-family: Gaegu, sans-serif;
 }
 
-.header {}
-
 .logo {
   font-family: 'Space Mono', monospace;
   font-size: 2rem;
@@ -14,11 +12,11 @@ body {
 
 
 .material-icons.cart-icon {
-  font-size: 36px;
-
+  font-size: 30px;
   display: inline;
-  margin-right: 0;
-  flex-direction: row;
+  position: absolute;
+  right: 8%;
+  top: 110px;
 }
 
 .row>* {
